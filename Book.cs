@@ -10,6 +10,17 @@ namespace OOP
 			public string title;
 			public string author;
 			public int pages;
+
+		// this is the class' constructor
+		public Book(string aTitle, string aAuthor, int aPages )
+		{
+			title = aTitle;
+			author = aAuthor;
+			pages = aPages;
+			Console.WriteLine(title);
+			Console.WriteLine(author);
+			Console.WriteLine(pages);
+		}
 	}
 }
 

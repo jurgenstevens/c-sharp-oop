@@ -11,15 +11,8 @@ namespace ControlFlow
     {
         static void Main(string[] args)
         {
-            Book book1 = new Book();
-            book1.title = "Harry Potter";
-            book1.author = "JK Rowling";
-            book1.pages = 400;
-
-            Book book2 = new Book();
-            book2.title = "Lord of the Rings";
-            book2.author = "JRR Tolkein";
-            book2.pages = 700;
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
 
             Console.ReadLine();
         }
